@@ -1,0 +1,191 @@
+body{
+    background-color: #f2f4f5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Navbar{
+    height: 40px;
+    margin: 0;
+    background-color: #dee1e3;
+    border-color: #c7cbce;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+.cover{
+    margin: 0;
+    padding: 1%;
+    background-color: #f2f4f5;
+}
+.Home{
+    align-items: center;
+    width: 600px;
+    display: flex;
+}
+.Home img{
+    width: 40px;
+    margin-left: -40px;
+    height: 35px;
+}
+.Home .Profile{
+    margin-left: 200px;
+}
+.Navbar .Home a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 50px;
+    color: #393b3d;
+}
+.Home button{
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.Home button img{
+    height: 27px;
+    width: 24px;
+    margin-left: -1px;
+}
+.Home button input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.Notification a{
+    display: flex;
+}
+.Notification a img{
+    margin-left: 25px;
+    width: 33px;
+    height: 37px;
+    align-items: center;
+}
+.Home p{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-weight: 100;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.Page{
+    color: #393b3d;
+}
+.Page h1{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.Page h2{
+    margin-left: 10px;
+}
+.GamePage{
+    display: flex;
+}
+.GamePage .Game1 h2{
+    margin-left: 33px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.GamePage .Game1 a img{
+    width: 150px;
+    height: 155px;
+    margin-left: 30px;
+}
+.Page .trend{
+    display: flex;
+    margin-top: -20px;
+}
+.Page .trend img{
+    width: 23px;
+    height: 26px;
+    margin-top: 17px;
+}
+.Page .trend h2{
+    font-size: 20px;
+}
+.Status{
+    display: flex;
+    margin-left: 35px;
+}
+.Status img{
+    height: 18px;
+    width: 16px;
+    margin-top: 10px;
+}
+.Status p{
+    font-size: 12px;
+    margin-left: 1px;
+}
+.link{
+    display: flex;
+    color: #393b3d;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 84%;
+    height: 20px;
+    margin-top: 25px;
+}
+.link p{
+    margin-top: 27px;
+}
+.link p:hover{
+    text-decoration: underline;
+}
+.link img{
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.footer{
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    margin-left: 260px;
+    margin-top: 75px;
+}
+.footer a{
+    text-decoration: none;
+    color: #606162;
+    font-weight: 500;
+}
+.Line{
+    width: 65%;
+    margin-top: 3%;
+}
+.Last{
+    display: flex;
+}
+.Lastfooter{
+    margin-top: 5px;
+    margin-left: 275px;
+}
+.Lastfooter select{
+    padding-right: 80px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    color: #606162;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: #f2f4f5;
+    outline: none;
+}
+.Credit{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 15;
+    color: #606162;
+    line-height: 15px;
+}
